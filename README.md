@@ -3,7 +3,6 @@
 
 # Scannort
 <h5 align=center style='margin-right:35px'>A network port scanner</h5>
-</center>
 
 
 <pre style="color:red;text-align:center">
@@ -18,6 +17,7 @@
       ░  ░ ░            ░  ░         ░          ░     ░ ░     ░              
          ░                                                                   
 </pre>
+</center>
 
 <br>
 <br>
@@ -41,11 +41,11 @@ Almost no requirements except Python3 must be installed on 	your system, the `` 
 ```console
 $ pip install git+https://github.com/0x00650a/Scannort.git
 ```
-#### Using ```git``` 
+#### Clone it 
 ```console
 $ git clone https://github.com/0x00650a/Scannort.git
 $ cd Scannort
-$ python setup.py install
+$ pip install .
 ```
 #### Script Only
 ```console
@@ -53,3 +53,18 @@ $ git clone https://github.com/0x00650a/Scannort.git
 $ cd Scannort
 $ [sudo] cp $(pwd)/src/Scannort.py /usr/local/bin/Scannort.py
 ```
+## Uninstall
+#### Uninstall it with pip
+```console
+$ pip uninstall Scannort
+```
+## How to use it
+Just type the command:
+```console
+$ Scannort
+```
+And follow the prompts to enter the target IP address/url, and explore the suggested Nmap scans based on the initial port scan results.
+## Issues
+If you encounter any problems, please report them on our <a href="https://github.com/0x00650a/Scannort/issues">GitHub Issues</a> page.
+## Contributions
+Your contribution and feedback are highly appreciated! :)

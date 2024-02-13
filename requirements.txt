@@ -2,7 +2,7 @@
 
 # This file probably will not used, until v2 release
 
-''' v1.0.1
+''' v1.1.1
 
 socket
 os
