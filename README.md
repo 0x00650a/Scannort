@@ -58,3 +58,13 @@ $ [sudo] cp $(pwd)/src/Scannort.py /usr/local/bin/Scannort.py
 ```console
 $ pip uninstall Scannort
 ```
+## How to use it
+Just type the command:
+```console
+$ Scannort
+```
+And follow the prompts to enter the target IP address/url, and explore the suggested Nmap scans based on the initial port scan results.
+## Issues
+If you encounter any problems, please report them on our <a href="https://github.com/0x00650a/Scannort/issues">GitHub Issues</a> page.
+## Contributions
+Your contribution and feedback are highly appreciated! :)
