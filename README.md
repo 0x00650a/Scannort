@@ -41,15 +41,20 @@ Almost no requirements except Python3 must be installed on 	your system, the `` 
 ```console
 $ pip install git+https://github.com/0x00650a/Scannort.git
 ```
-#### Using ```git``` 
+#### Clone it 
 ```console
 $ git clone https://github.com/0x00650a/Scannort.git
 $ cd Scannort
-$ python setup.py install
+$ pip install .
 ```
 #### Script Only
 ```console
 $ git clone https://github.com/0x00650a/Scannort.git 
 $ cd Scannort
 $ [sudo] cp $(pwd)/src/Scannort.py /usr/local/bin/Scannort.py
+```
+## Uninstall
+#### Uninstall it with pip
+```console
+$ pip uninstall Scannort
 ```
