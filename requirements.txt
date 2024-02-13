@@ -1,0 +1,21 @@
+# requirements file
+
+# This file probably will not used, until v2 release
+
+''' v1.0.1
+
+socket
+os
+signal
+time
+threading
+sys
+re
+subprocess
+'''
+
+# Still in dev
+''' v2.0.1
+
+scapy	2.5.0
+'''

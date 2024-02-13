@@ -1,0 +1,4 @@
+include Scannort/ico/ *
+exclude .gitignore
+prune .git
+
