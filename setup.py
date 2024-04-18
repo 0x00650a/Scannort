@@ -17,7 +17,7 @@ setup(
     ],
     entry_points = {
         'console_scripts' : [
-            'Scannort = Scannort.src:main',
+            'Scannort = src.Scannort:main',
         ],
     },
     package_data = {

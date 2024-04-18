@@ -283,8 +283,8 @@ def scannort(first_run):
     ntasks = 65535
 
     while q.qsize() > 0:
-        prgres = (ntasks - q.qsize()) * 100 / ntasks
         with print_lock:
+            prgres = (ntasks - q.qsize()) * 100 / ntasks
             sys.stdout.write(f"Scan Progress: {prgres:.2f}%")
             sys.stdout.flush()
             sys.stdout.write('\r\r')
