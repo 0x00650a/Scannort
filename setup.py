@@ -7,7 +7,7 @@ with open("README.md", 'r') as f:
 
 setup(
     name = 'Scannort',
-    version = '1.0.1',
+    version = '1.1.1',
     author = '@0x00650a',
     description = 'Multi-threaded Scanner for open ports in hosts',
     packages = find_packages(),

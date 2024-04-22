@@ -3,7 +3,6 @@
 
 # Scannort
 <h5 align=center style='margin-right:35px'>A network port scanner</h5>
-</center>
 
 
 <pre style="color:red;text-align:center">
@@ -18,6 +17,7 @@
       ░  ░ ░            ░  ░         ░          ░     ░ ░     ░              
          ░                                                                   
 </pre>
+</center>
 
 <br>
 <br>
