@@ -27,7 +27,7 @@
 Scannort is an interactive Pyhton script that allow you To:
 * Scan hosts for open ports fast using threads
 * Suggest an **nmap** scan based on the results
-* Customise you nmap arguments if needed
+* Customise your nmap arguments if needed
 * Run the scan and store the results
 
 ## Requirements
